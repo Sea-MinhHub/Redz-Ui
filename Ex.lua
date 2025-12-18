@@ -12,9 +12,13 @@ local MainTab = Redzmodbyseaminh:MakeTab({
 })
 
 MainTab:AddDiscordInvite({
-    ["Name"] = "Discord Server",
-    ["Logo"] = "rbxassetid://10723415903",
-    ["Invite"] = "https://discord.gg/8G2bQPz2eH"
+    ["Title"] = "Sea | Minh Hub",
+    ["Description"] = "Đây là discord chính chủ của Sea | Minh Hub.",
+    ["Banner"] = "rbxassetid://0",
+    ["Logo"] = "rbxassetid://107169193664829",
+    ["Invite"] = "https://discord.gg/8G2bQPz2eH",
+    ["Members"] = 0,
+    ["Online"] = 0
 })
 
 MainTab:AddSection("Section Title")
