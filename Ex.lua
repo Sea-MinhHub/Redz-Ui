@@ -6,16 +6,9 @@ local Redzmodbyseaminh = Redzmodbyseaminh:MakeWindow({
     ["ScriptFolder"] = "SeaMinhHubOther"
 })
 
-Library:Notify({
-    ["Title"] = "Notification",
-    ["Content"] = "Script Loaded Successfully",
-    ["Image"] = "rbxassetid://10723415903",
-    ["Delay"] = 5
-})
-
-local MainTab = Window:MakeTab({
-    "Main",
-    "rbxassetid://10723407389"
+local MainTab = Redzmodbyseaminh:MakeTab({
+    "Discord",
+    "rbxassetid://10723415903"
 })
 
 MainTab:AddDiscordInvite({
